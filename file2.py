@@ -16,9 +16,9 @@ if len(password)>=8:
                 upper+=1
            # elif i in string.punctuation:
             elif i in '!@#$%^&*()_+-=;:/?.>,<`~':
-                punctuation+=1
+                punctuation += 1
             else:
-                lower+=1
+                lower += 1
 
 
 if num > 0 and upper > 0 and lower > 0 and punctuation > 0:
